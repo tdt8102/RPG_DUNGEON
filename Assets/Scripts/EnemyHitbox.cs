@@ -1,0 +1,22 @@
+using UnityEngine;
+
+public class EnemyHitbox : Collidable
+{
+	public int damage = 1;
+
+	public float pushForce = 5f;
+
+	protected override void OnCollide(Collider2D coll)
+	{
+		if (coll.tag == "Fighter" && coll.name == "Player")
+		{
+			Damage damage = new Damage
+			{
+				damageAmount = this.damage,
+				origin = base.transform.position,
+				pushForce = pushForce
+			};
+			coll.SendMessage("ReceiveDamage", damage);
+		}
+	}
+}
