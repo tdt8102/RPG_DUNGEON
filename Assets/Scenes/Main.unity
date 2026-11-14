@@ -85281,6 +85281,7 @@ MonoBehaviour:
     maxNormalAngle: 0
   sceneNames:
   - Dungeon1
+  - Dungeon2
 --- !u!114 &226
 MonoBehaviour:
   m_ObjectHideFlags: 0

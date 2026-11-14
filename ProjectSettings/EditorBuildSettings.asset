@@ -2,8 +2,8 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1045 &1
 EditorBuildSettings:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
+  serializedVersion: 2
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/StartGame.unity
@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndGame.unity
     guid: 98f19f151e9b485408e65ddffa09e72d
+  - enabled: 1
+    path: Assets/Scenes/Dungeon2.unity
+    guid: c6b8d60cd2ddd8a468ea68f1afd5334f
   m_configObjects: {}
